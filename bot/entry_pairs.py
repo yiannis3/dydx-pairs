@@ -1,9 +1,9 @@
 from constants import ZSCORE_THRESH, USD_PER_TRADE, USD_MIN_COLLATERAL
-from func_utils import format_number
-from func_cointegration import calculate_zscore
-from func_public import get_candles_recent, get_markets
-from func_private import is_open_positions, get_account
-from func_bot_agent import BotAgent
+from bot.utils import format_number
+from bot.cointegration import calculate_zscore
+from bot.public import get_candles_recent, get_markets
+from bot.private import is_open_positions, get_account
+from bot.bot_agent import BotAgent
 import pandas as pd
 import json
 

@@ -2,7 +2,7 @@ from dydx_v4_client import NodeClient, Wallet
 from dydx_v4_client.indexer.rest.indexer_client import IndexerClient
 from dydx_v4_client.network import TESTNET
 from constants import INDEXER_ACCOUNT_ENDPOINT, INDEXER_ENDPOINT_MAINNET, MNEMONIC, DYDX_ADDRESS, MARKET_DATA_MODE
-from func_public import get_candles_recent
+from bot.public import get_candles_recent
 
 # Client Class
 class Client:

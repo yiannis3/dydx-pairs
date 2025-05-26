@@ -1,5 +1,5 @@
 from constants import RESOLUTION
-from func_utils import get_ISO_times
+from bot.utils import get_ISO_times
 import pandas as pd
 import numpy as np
 import time

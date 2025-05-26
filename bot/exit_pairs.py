@@ -1,8 +1,8 @@
 from constants import CLOSE_AT_ZSCORE_CROSS
-from func_utils import format_number
-from func_cointegration import calculate_zscore
-from func_public import get_candles_recent, get_markets
-from func_private import place_market_order, get_open_positions, get_order
+from bot.utils import format_number
+from bot.cointegration import calculate_zscore
+from bot.public import get_candles_recent, get_markets
+from bot.private import place_market_order, get_open_positions, get_order
 import json
 import time
 
