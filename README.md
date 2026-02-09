@@ -1,5 +1,5 @@
 # Project Overview
-This Python bot interacts with dYdX v4 on Mainnet or Testnet to perform pairs trading.
+This Python bot interacts with dYdX v4 on Mainnet or Testnet to perform pairs trading. It trades perpetual futures with custom leverage.
 
 ## How It Works
 It uses a z-score strategy to spot deviations from a moving average. When the z-score exceeds your chosen threshold, the bot places a trade on dYdX.
