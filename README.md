@@ -25,3 +25,10 @@ Create a `.env` file in the `bot` folder, completing the details specified in `.
 cd bot
 python main.py
 ```
+
+## TODO
+
+- [ ] Liquidity-aware execution (avoid partial or unfillable orders)
+- [ ] Hard risk limits (leverage, position size, exposure)
+- [ ] Atomic pair execution (both legs fill or trade is aborted)
+
